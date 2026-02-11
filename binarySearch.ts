@@ -1,3 +1,8 @@
+// Explicação: Divide repetidamente um array ORDENADO pela metade para encontrar o valor.
+// Propósito: Busca eficiente em grandes volumes de dados ordenados.
+// Big O: Melhor caso O(1), Pior caso O(log n).
+// Exemplos Reais: Índices de banco de dados, dicionários, busca binária em bibliotecas.
+
 const arrSorteado = [1, 3, 5, 7, 11, 13, 17, 19, 23, 29];
 
 

@@ -1,3 +1,8 @@
+// Explicação: Estima a posição do valor interpolando onde ele deve estar (como buscar palavra em dicionário).
+// Propósito: Busca otimizada para dados ordenados e uniformemente distribuídos.
+// Big O: Média O(log(log n)), Pior caso O(n).
+// Exemplos Reais: Procurar nome em lista telefônica, busca em índices de dados numéricos uniformes.
+
 // Usamos esse algoritmo para dados que crescen de maneira previsivel, como 1,2,3,4,5,6 ou exponencialmente como desse exemplo. Nesses casos, ele até supera o Binary Search
 const array = [1,2,4,8,16,32,64,128,256,512,1024]
 
