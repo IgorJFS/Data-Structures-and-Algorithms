@@ -1,3 +1,8 @@
+// Explicação: Escolhe um "pivô" e particiona o array: menores à esquerda, maiores à direita. Repete recursivamente.
+// Propósito: Rápido e eficiente na prática, gasta pouca memória extra.
+// Big O: Melhor/Médio O(n log n), Pior caso O(n^2).
+// Exemplos Reais: Principal algoritmo de ordenação em linguagens como C++ (std::sort), V8 (Chrome).
+
 let array = [9,1,2,3,5,4,6,8,7]
 
 

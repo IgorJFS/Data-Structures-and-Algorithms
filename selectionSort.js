@@ -1,3 +1,8 @@
+// Explicação: Seleciona repetidamente o menor elemento da parte não ordenada e o move para o início.
+// Propósito: Ordenação simples, útil quando a escrita na memória é custosa (faz poucas trocas).
+// Big O: Melhor/Pior caso O(n^2).
+// Exemplos Reais: Ordenar arquivos pequenos com escritas limitadas (memória flash antiga).
+
 const array = [9,1,2,3,5,4,7,6,8,10,22,12]
 
 selectionSort(array) 

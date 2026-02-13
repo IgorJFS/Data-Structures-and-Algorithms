@@ -19,3 +19,5 @@ adjMatrix.forEach(row => { //Isso aqui é apenas para o terminal fazer a matriz 
   console.log(row.join(" "));
 });
 
+console.table(adjMatrix)
+

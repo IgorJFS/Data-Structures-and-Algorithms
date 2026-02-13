@@ -1,3 +1,8 @@
+// Explicação: Armazena pares chave-valor para acesso ultra-rápido baseado em hash.
+// Propósito: Recuperação instantânea de dados.
+// Big O: Inserção/Busca média O(1), Pior caso O(n) (colisões).
+// Exemplos Reais: Caching (Redis), índices de banco de dados, objetos JSON, dicionários em Python.
+
 let map = new Map();
 
 map.set("a", 1);

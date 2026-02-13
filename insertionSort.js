@@ -1,3 +1,8 @@
+// Explicação: Constrói a lista ordenada um item por vez, pegando o próximo elemento e inserindo na posição correta.
+// Propósito: Muito eficiente para conjuntos de dados pequenos ou quase ordenados.
+// Big O: Melhor caso O(n), Pior caso O(n^2).
+// Exemplos Reais: Ordenar cartas de baralho na mão, algoritmo online (recebendo dados aos poucos).
+
 const array = [9,1,2,3,5,4,7,6,8,10,22,12]
 
 insertionSort(array) 

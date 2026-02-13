@@ -1,3 +1,8 @@
+// Explicação: Dividir para conquistar. Divide a lista em metades recursivamente e depois mescla as partes ordenadas.
+// Propósito: Ordenação estável e eficiente para grandes volumes de dados.
+// Big O: Sempre O(n log n).
+// Exemplos Reais: Ordenação de listas encadeadas, E-commerce (produtos), base do Timsort (Python/Java).
+
 let array = [9,1,2,3,5,4]
 
 let sortedArray = mergeSort(array)
